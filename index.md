@@ -1,6 +1,3 @@
-RUNOOB.COM
-
-GOOGLE.COM
 
 ~~BAIDU.COM~~
 
