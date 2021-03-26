@@ -10,4 +10,4 @@ GOOGLE.COM
 
 [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
 
-这是一个链接 [菜鸟教程](https://www.runoob.com)
+<https://www.runoob.com>
