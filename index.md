@@ -1,7 +1,7 @@
 [Markdown链接](https://www.runoob.com/markdown/md-block.html)
 
 ~~BAIDU.COM~~
-~~~BAIDU.ccom~~~
+~~~BAIDU.ccom~~
 
 <u> 带下划线文本 </u>
 
