@@ -29,5 +29,3 @@
 >* 第九项
  >>[Markdown 高级技巧](https://www.runoob.com/markdown/md-advance.html)
 >
-
-<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
