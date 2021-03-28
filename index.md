@@ -28,3 +28,7 @@
 
 * 第九项
  >[Markdown 高级技巧](https://www.runoob.com/markdown/md-advance.html)
+ >
+
+_斜体文本_
+**粗体文本**
