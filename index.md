@@ -1,4 +1,4 @@
-# Web课第2次作业-_小组作业_
+# Web课第2次作业-小组作业
 ### 小组成员：赖丽珍 20191060240 姚沛宏 20191060XXX 曾程 20191060XXX 符姚 20191060XXX
 ----------
 >**[Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)**
