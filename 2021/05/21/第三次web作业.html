@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>第三次web作业</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <nav>
+    
+      <a href="/" >Home</a>
+    
+      <a href="/about.html" >About</a>
+    
+      <a href="/test.html" >Test</a>
+    
+      <a href="/blog.html" >Blog</a>
+    
+      <a href="/staff.html" >Staff</a>
+    
+  </nav>
+    <h1>第三次web作业</h1>
+
+<p>
+  21 May 2021
+  
+  
+    - <a href="/authors/jill.html">lailizhen</a>
+  
+</p>
+
+<h1 id="web应用软件开发实训-第三次作业-git使用">WEB应用软件开发实训-第三次作业-Git使用</h1>
+
+<p>learngit 的项目网址为：<a href="https://github.com/llz-lailizhen/llz-lailizhen.github.io/learngit">https://github.com/llz-lailizhen/llz-lailizhen.github.io/learngit</a></p>
+
+<p>公网地址：<a href="https://llz-lailizhen.github.io">https://llz-lailizhen.github.io</a></p>
+
+<h2 id="一必做部分">一、必做部分</h2>
+<h3 id="1安装git">1.安装Git</h3>
+
+<h3 id="2-创建版本库">2. 创建版本库</h3>
+
+<h3 id="3-版本控制">3. 版本控制</h3>
+
+<h3 id="4-版本回退">4. 版本回退</h3>
+
+<h3 id="5-工作区和暂存区">5. 工作区和暂存区</h3>
+
+<h3 id="6-管理修改">6. 管理修改</h3>
+
+<h3 id="7撤销修改">7.撤销修改</h3>
+
+<h3 id="8删除文件">8.删除文件</h3>
+
+<h3 id="9远程仓库">9.远程仓库</h3>
+
+<h3 id="10添加到远程仓库">10.添加到远程仓库</h3>
+
+<h3 id="11从远程仓库克隆">11.从远程仓库克隆</h3>
+
+<h2 id="二选做部分">二、选做部分</h2>
+<h3 id="一分支管理">（一）分支管理</h3>
+<h4 id="1创建与合并分支">1.创建与合并分支</h4>
+
+<h4 id="2解决冲突">2.解决冲突</h4>
+
+<h4 id="3分支管理策略">3.分支管理策略</h4>
+
+<h4 id="4feature分支">4.Feature分支</h4>
+
+<h4 id="5多人协作">5.多人协作</h4>
+
+<h3 id="二标签管理">（二）标签管理</h3>
+<h4 id="1创建标签">1.创建标签</h4>
+
+<h4 id="1操作标签">1.操作标签</h4>
+
+<h3 id="三使用gitee">（三）使用Gitee</h3>
+<h4 id="1giteessh公钥">1.GiteeSSH公钥</h4>
+
+<h4 id="2推送到gitee远程仓库">2.推送到Gitee远程仓库</h4>
+
+<h4 id="3本地库同时与两个远程库互相同步">3.本地库同时与两个远程库互相同步</h4>
+
+<h2 id="三实验过程">三、实验过程</h2>
+<p>1、首先安装git，然后在本地创建learngit文件夹，并cd转到learngit目录下。然后用git init初始化该仓库，为git可管理的仓库。</p>
+
+<p>2、然后在learngit中创建readme.txt文件，每次修改内容，用git add readme.txt将文件交的暂存区stage</p>
+
+<p>3、然后用git commit将暂存区的文件提交到分支。用git status查看文件状态。</p>
+
+<p>4、用git log 查看多次提交的版本记录，用git reset –hard HEAD^回退到上一个版本，用git reset –hard版本号 回到指定版本。</p>
+
+<p>5、用git restore – readme.txt 撤销掉修改。</p>
+
+<p>6、删除文件，则用rm test.txt  删除我添加并提交的文件的，再用git rm test.txt来确认删除，并git commit 提交一个版本。</p>
+
+<p>7、在github上登陆我的账户并创建了一个learngit远程仓库，根据github上网页的提示，在本地用git remote add origin https: //github. com/llz-lailizhen/learngit.git  git branch -M main命令，将本地仓库与远程仓库连接起来。再用git push -u origin main 将当前分支推送到远程仓库。</p>
+
+<p>8、在github上创建一个带readme.md文件的仓库gitskils，然后克隆出一个本地库。</p>
+
+<h2 id="四总结">四、总结</h2>
+<p>一、遇到的问题
+1、直接用git add git commit等语句会发现提示我  Permission denied(没有权限)，要在这些语句前都加上sudo 第一次还需要输入我的密码。</p>
+
+<p>2、教程上说git checkout –<filename> 来撤回修改，实际发现不行，根据终端提示应该是，git restore -- <filename>才能撤回，可能是教程使用的WSL终端和我们版本不一致。</filename></filename></p>
+
+<p>3、教程上说上git remote add origin git@github.com:llz-lailizhen /learngit.git 语句用来关联远程仓库，实际会报错，而github网站上有提示操作，按网站上提示的git remote add origin https://github.com/llz-lailizhen/learngit.git 语句就成功了。后面的克隆语句也是类似的问题，教程报错，按网站提示的正确。</p>
+
+<p>4、教程上说git push -u origin master 来将本地的库推送到远程仓库，但是报错，根据网上搜索GitHub 从2020年 10 月 1 日起，在该平台上创建的所有新的源代码仓库将默认被命名为 “main”，而不是原先的”master”，所以用git push -u origin main才能成功。这些都是教程出现的不适应当前版本。</p>
+
+<p>5、学到了git add一次只能提交一个文件到暂存区，git commit一次会将所有文件暂存区提交到分支中</p>
+
+<p>二、实验心得体会
+学会了如果使用Git以及相关的一系列操作，感受到了Git的魅力，Git是一种高效便捷的版本控制系统，熟练掌握Git，对以后的项目开发工作十分重要。如果想熟练运用git命令，一定要结合实际情况多加练习，希望能在以后的使用中多多熟悉。</p>
+
+    
+  </body>
+</html>
